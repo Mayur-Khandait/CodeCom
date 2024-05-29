@@ -1,0 +1,19 @@
+{
+  "name": "codecom",
+  "version": "1.0.0",
+  "description": "This is Our Project CODECOM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayur-Khandait/CodeCom.git"
+  },
+  "author": "Mayur & team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayur-Khandait/CodeCom/issues"
+  },
+  "homepage": "https://github.com/Mayur-Khandait/CodeCom#readme"
+}
