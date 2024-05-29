@@ -4,7 +4,10 @@
   "description": "This is Our Project CODECOM",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js",
+    "dev": "nodemon app.js"
+
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,21 @@
   "bugs": {
     "url": "https://github.com/Mayur-Khandait/CodeCom/issues"
   },
-  "homepage": "https://github.com/Mayur-Khandait/CodeCom#readme"
+  "homepage": "https://github.com/Mayur-Khandait/CodeCom#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
 }
